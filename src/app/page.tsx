@@ -1,5 +1,11 @@
+import { GuinnessMap } from "@/components/guinness-map";
+
 export default function Home() {
   return (
-    <>Hello</>
+    <main>
+      <div>
+        <GuinnessMap />
+      </div>
+    </main>
   );
 }
